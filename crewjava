@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package raquel;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Raquel {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    String firstNumber = JOptionPane.showInputDialog("Digite o primeiro número inteiro");
+    String secondNumber = JOptionPane.showInputDialog("Digite o segundo número inteiro");
+    int number1 =Integer.parseInt(firstNumber) ;
+    int number2 = Integer.parseInt(secondNumber);
+    int sum = number1 + number2;
+    JOptionPane.showMessageDialog( null, "A soma é " + sum, "Soma da porra toda", JOptionPane.PLAIN_MESSAGE);
+        
+    }
+    
+}
